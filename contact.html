@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tell Me Your Situation — Seniors Aging Forward</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21C12 21 3 14.5 3 8.5C3 6 5 4 7.5 4C9 4 10.5 4.8 12 6.5C13.5 4.8 15 4 16.5 4C19 4 21 6 21 8.5C21 14.5 12 21 12 21Z" fill="#2B9EAD"/></svg></div>
+        <span>Seniors Aging Forward<span class="tagline">Canadian Navigation Platform</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="resources.html">Resources</a>
+        <a href="guides.html">Guides</a>
+        <a href="episodes.html">Episodes</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-outline">Log In</a>
+        <a href="pricing.html" class="btn btn-primary">Sign Up</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="section" style="background: linear-gradient(135deg, #1a3a52 0%, #2B5A7B 100%); color: white; padding: 80px 0;">
+    <div class="container">
+      <h1 style="font-size: 3rem; margin-bottom: 16px; line-height: 1.2;">Tell Me What's Going On.</h1>
+      <p style="font-size: 1.2rem; max-width: 700px; line-height: 1.6; opacity: 0.95;">Every family's journey is different. Share your situation and we'll provide a clear, personalized pathway forward.</p>
+    </div>
+  </section>
+
+  <!-- Two-Column Layout -->
+  <section class="section">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start;">
+
+        <!-- Left: Form -->
+        <div>
+          <h2 style="margin-bottom: 32px;">Share Your Situation</h2>
+          <form class="form-card" style="padding: 0; background: transparent; display: flex; flex-direction: column; gap: 24px;">
+
+            <!-- Situation Description -->
+            <div class="form-group">
+              <label style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.95rem;">Tell us what's happening in your own words <span style="color: #d32f2f;">*</span></label>
+              <textarea placeholder="For example: My mother just had a fall and broke her hip. She's coming home from the hospital next week and we're not sure what kind of support she'll need..." style="width: 100%; padding: 14px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; font-family: inherit; resize: vertical; min-height: 120px; box-sizing: border-box;" required></textarea>
+            </div>
+
+            <!-- Main Concern -->
+            <div class="form-group">
+              <label style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.95rem;">What's your main concern? <span style="color: #d32f2f;">*</span></label>
+              <select style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; background: white; cursor: pointer;" required>
+                <option value="">Select a concern...</option>
+                <option value="discharge">Hospital Discharge Planning</option>
+                <option value="falls">Falls &amp; Home Safety</option>
+                <option value="care">Finding Home Care</option>
+                <option value="ltc">Long-Term Care Options</option>
+                <option value="dementia">Dementia &amp; Cognitive Changes</option>
+                <option value="legal">Legal &amp; Financial Planning</option>
+                <option value="meds">Medication Management</option>
+                <option value="driving">Driving &amp; Mobility</option>
+                <option value="caregiver">Caregiver Support</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <!-- Stage -->
+            <div class="form-group">
+              <label style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.95rem;">What stage are you in? <span style="color: #d32f2f;">*</span></label>
+              <select style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; background: white; cursor: pointer;" required>
+                <option value="">Select a stage...</option>
+                <option value="crisis">Crisis/urgent right now</option>
+                <option value="planning">Planning ahead for the future</option>
+                <option value="research">Researching options</option>
+                <option value="support">Already in a care situation, need support</option>
+              </select>
+            </div>
+
+            <!-- Who It's For -->
+            <div class="form-group">
+              <label style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.95rem;">Who are you seeking guidance for? <span style="color: #d32f2f;">*</span></label>
+              <select style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; background: white; cursor: pointer;" required>
+                <option value="">Select...</option>
+                <option value="parent">My parent</option>
+                <option value="spouse">My spouse or partner</option>
+                <option value="myself">Myself</option>
+                <option value="family">Other family member</option>
+              </select>
+            </div>
+
+            <!-- Age Range -->
+            <div class="form-group">
+              <label style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.95rem;">Age range <span style="color: #d32f2f;">*</span></label>
+              <select style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; background: white; cursor: pointer;" required>
+                <option value="">Select age range...</option>
+                <option value="65-74">65-74</option>
+                <option value="75-84">75-84</option>
+                <option value="85+">85+</option>
+              </select>
+            </div>
+
+            <!-- Province -->
+            <div class="form-group">
+              <label style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.95rem;">Province <span style="color: #d32f2f;">*</span></label>
+              <select style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; background: white; cursor: pointer;" required>
+                <option value="">Select province...</option>
+                <option value="on">Ontario</option>
+                <option value="bc">British Columbia</option>
+                <option value="ab">Alberta</option>
+                <option value="sk">Saskatchewan</option>
+                <option value="mb">Manitoba</option>
+                <option value="qc">Quebec</option>
+                <option value="ns">Nova Scotia</option>
+                <option value="nb">New Brunswick</option>
+                <option value="pe">Prince Edward Island</option>
+                <option value="nl">Newfoundland &amp; Labrador</option>
+                <option value="yt">Yukon</option>
+                <option value="nt">Northwest Territories</option>
+                <option value="nu">Nunavut</option>
+              </select>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label style="display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.95rem;">Email address <span style="color: #d32f2f;">*</span></label>
+              <input type="email" placeholder="your@email.com" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; box-sizing: border-box;" required>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary btn-lg btn-full" style="margin-top: 8px;">Submit My Situation</button>
+
+            <p style="font-size: 0.85rem; color: #999; margin-top: 16px;">
+              <span style="font-weight: 500;">Your information is safe.</span> We are PIPEDA-compliant and your data is never shared or sold.
+            </p>
+          </form>
+        </div>
+
+        <!-- Right: Info + FAQ -->
+        <div>
+          <!-- What Happens Next -->
+          <div class="card" style="margin-bottom: 32px; border: 2px solid #2B9EAD;">
+            <h3 style="margin-bottom: 24px; color: #2B9EAD;">What Happens Next</h3>
+            <div style="display: flex; flex-direction: column; gap: 24px;">
+              <div>
+                <div style="display: flex; align-items: flex-start; gap: 16px;">
+                  <div style="background: #2B9EAD; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0; font-size: 1.2rem;">1</div>
+                  <div>
+                    <h4 style="margin-bottom: 8px; font-weight: 600;">We Review Your Situation</h4>
+                    <p style="color: #666; font-size: 0.95rem; line-height: 1.6;">Within 48 hours, our team carefully reviews what you've shared and identifies the key concerns specific to your situation and province.</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div style="display: flex; align-items: flex-start; gap: 16px;">
+                  <div style="background: #2B9EAD; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0; font-size: 1.2rem;">2</div>
+                  <div>
+                    <h4 style="margin-bottom: 8px; font-weight: 600;">You Receive a Personalized Response</h4>
+                    <p style="color: #666; font-size: 0.95rem; line-height: 1.6;">We'll email you a detailed response with context about your situation, practical options, and resources specific to your province and circumstances.</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div style="display: flex; align-items: flex-start; gap: 16px;">
+                  <div style="background: #2B9EAD; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0; font-size: 1.2rem;">3</div>
+                  <div>
+                    <h4 style="margin-bottom: 8px; font-weight: 600;">Clear Next Steps</h4>
+                    <p style="color: #666; font-size: 0.95rem; line-height: 1.6;">We'll outline specific next steps — who to call, what to ask, how to access programs, and realistic timelines for your province.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ -->
+          <div>
+            <h3 style="margin-bottom: 24px;">Common Questions</h3>
+
+            <div style="border-bottom: 1px solid #e0e0e0; padding-bottom: 16px; margin-bottom: 16px;">
+              <h4 style="margin-bottom: 8px; font-weight: 600;">How long does the response take?</h4>
+              <p style="color: #666; font-size: 0.95rem; line-height: 1.6;">We aim to respond within 48 hours during business days. For urgent situations (like an imminent hospital discharge), reach out directly and mention "urgent" in your message.</p>
+            </div>
+
+            <div style="border-bottom: 1px solid #e0e0e0; padding-bottom: 16px; margin-bottom: 16px;">
+              <h4 style="margin-bottom: 8px; font-weight: 600;">Are you a healthcare provider?</h4>
+              <p style="color: #666; font-size: 0.95rem; line-height: 1.6;">No. We're a navigation and education platform. We don't provide medical advice. Always consult your doctor for medical decisions.</p>
+            </div>
+
+            <div style="border-bottom: 1px solid #e0e0e0; padding-bottom: 16px; margin-bottom: 16px;">
+              <h4 style="margin-bottom: 8px; font-weight: 600;">What if I'm in an emergency right now?</h4>
+              <p style="color: #666; font-size: 0.95rem; line-height: 1.6;">If someone is experiencing chest pain, difficulty breathing, loss of consciousness, severe injury, or suicidal thoughts, call 911 immediately. We can help after the emergency is stabilized.</p>
+            </div>
+
+            <div style="border-bottom: 1px solid #e0e0e0; padding-bottom: 16px; margin-bottom: 16px;">
+              <h4 style="margin-bottom: 8px; font-weight: 600;">Will my information be shared?</h4>
+              <p style="color: #666; font-size: 0.95rem; line-height: 1.6;">Never. Your information is never shared, sold, or used for marketing. We're PIPEDA-compliant and treat your privacy as non-negotiable.</p>
+            </div>
+
+            <div>
+              <h4 style="margin-bottom: 8px; font-weight: 600;">Can I update my situation later?</h4>
+              <p style="color: #666; font-size: 0.95rem; line-height: 1.6;">Yes. You can reply to our response email anytime with updates, new concerns, or follow-up questions. We're here to support your journey.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy Reassurance Banner -->
+  <section class="section" style="background: #f0f7fa; border-left: 4px solid #2B9EAD;">
+    <div class="container">
+      <div style="display: flex; align-items: center; gap: 24px;">
+        <div style="font-size: 2.5rem; flex-shrink: 0;">🔒</div>
+        <div>
+          <h3 style="margin-bottom: 8px; font-size: 1.3rem;">Your Privacy Matters</h3>
+          <p style="color: #666; line-height: 1.6;">We are PIPEDA-compliant and never share your personal information. No spam. No selling data. No hidden tracking. Just genuine support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section" style="background: linear-gradient(135deg, #2B9EAD 0%, #1a7a8d 100%); color: white; text-align: center; padding: 60px 0;">
+    <div class="container">
+      <h2 style="margin-bottom: 16px; font-size: 2rem;">Still Have Questions Before Sharing?</h2>
+      <p style="margin-bottom: 32px; font-size: 1.1rem; opacity: 0.95;">Browse our resources, watch an episode, or read a guide to get more context.</p>
+      <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+        <a href="resources.html" class="btn btn-white">View Resources</a>
+        <a href="episodes.html" class="btn btn-white">Watch Episodes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="color:#fff;"><div class="logo-icon"><span style="font-size:1.2rem;">💙</span></div><span>Seniors Aging Forward</span></a>
+          <p>Compassionate navigation guidance for Canadian seniors and family caregivers.</p>
+        </div>
+        <div class="footer-col"><h4>Navigate</h4><a href="guides/hospital-discharge.html">Hospital Discharge</a><a href="guides/falls-safety.html">Falls &amp; Safety</a><a href="guides/finding-care.html">Finding Care</a><a href="resources.html">All Resources</a></div>
+        <div class="footer-col"><h4>Platform</h4><a href="about.html">About Us</a><a href="episodes.html">Episodes</a><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a></div>
+        <div class="footer-col"><h4>Provinces</h4><a href="#">Ontario</a><a href="#">British Columbia</a><a href="#">Alberta</a><a href="#">All Provinces</a></div>
+      </div>
+      <div class="disclaimer">This information is for educational purposes only and does not replace professional medical, legal, or financial advice. If you are in an emergency, call 911.</div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Seniors Aging Forward. All rights reserved.</span>
+        <span><a href="#" style="color:rgba(255,255,255,.5);margin-right:16px;">Privacy Policy</a><a href="#" style="color:rgba(255,255,255,.5);">Terms of Use</a></span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
